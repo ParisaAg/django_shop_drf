@@ -211,3 +211,5 @@ venv/
 .env
 __pycache__/
 *.pyc
+
+static/js/theme.min.js
