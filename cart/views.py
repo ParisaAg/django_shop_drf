@@ -15,6 +15,9 @@ class SessionAddProduct(View):
         return JsonResponse({"cart":cart.get_cart_items()})
     
 
+
 class SessionCartSummary(View):
     template_name="cart/cart-summary.html"
+
+    
     
